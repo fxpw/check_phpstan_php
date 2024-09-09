@@ -1,3 +1,4 @@
 #!/bin/bash
 set -e
-# your commands here
+composer install
+vendor/bin/phpstan analyse app

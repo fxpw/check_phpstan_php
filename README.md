@@ -1,6 +1,5 @@
-# GitHub Action Template
+# GitHub Action Template check_phpstan_php
 
-Go to entrypoint.sh and write your functions
 
 ## Usage
 
@@ -16,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v1
-        - uses: fxpw/github_action_template_repo@main
+        - uses: fxpw/check_phpstan_php@main
 ```
 

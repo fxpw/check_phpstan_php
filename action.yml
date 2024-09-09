@@ -1,5 +1,5 @@
-name: 'github_action_template'
-description: 'github action template'
+name: 'check_phpstan_php'
+description: 'github action template that check for php stan'
 author: 'Anton Koshel <fxpw@outlook.com>'
 runs:
   using: 'docker'
